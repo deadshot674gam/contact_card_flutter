@@ -21,15 +21,15 @@ class MyApp extends StatelessWidget {
             children: [
               CircleAvatar(
                 backgroundImage: AssetImage('images/divyanshu.png'),
-                radius: 75.0,
+                radius: 70.0,
               ),
               Container(
                 child: Text(
-                  "Divyanshu Tiwari",
+                  "Divyanshu",
                   style: TextStyle(
                       color: Colors.white,
                       fontFamily: 'Pacifico',
-                      fontSize: 40.0),
+                      fontSize: 45.0),
                 ),
               ),
               Container(
@@ -51,7 +51,6 @@ class MyApp extends StatelessWidget {
                 ),
               ),
               Card(
-                  color: Colors.white,
                   margin: EdgeInsets.fromLTRB(20.0, 20.0, 20.0, 5.0),
                   child: ListTile(
                     dense: true,
@@ -69,7 +68,6 @@ class MyApp extends StatelessWidget {
                     onTap: () => launch("tel:+919454900674"),
                   )),
               Card(
-                  color: Colors.white,
                   margin: EdgeInsets.symmetric(vertical: 5.0, horizontal: 20.0),
                   child: ListTile(
                     dense: true,
@@ -87,7 +85,6 @@ class MyApp extends StatelessWidget {
                     onTap: () => launch("mailto:sunnyt0225@gmail.com"),
                   )),
               Card(
-                  color: Colors.white,
                   margin: EdgeInsets.symmetric(vertical: 5.0, horizontal: 20.0),
                   child: ListTile(
                     dense: true,
