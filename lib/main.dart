@@ -21,7 +21,7 @@ class MyApp extends StatelessWidget {
             children: [
               CircleAvatar(
                 backgroundImage: AssetImage('images/divyanshu.png'),
-                radius: 50.0,
+                radius: 75.0,
               ),
               Container(
                 child: Text(
@@ -54,6 +54,7 @@ class MyApp extends StatelessWidget {
                   color: Colors.white,
                   margin: EdgeInsets.fromLTRB(20.0, 20.0, 20.0, 5.0),
                   child: ListTile(
+                    dense: true,
                     leading: Icon(
                       Icons.call,
                       color: Colors.teal,
@@ -71,6 +72,7 @@ class MyApp extends StatelessWidget {
                   color: Colors.white,
                   margin: EdgeInsets.symmetric(vertical: 5.0, horizontal: 20.0),
                   child: ListTile(
+                    dense: true,
                     leading: Icon(
                       Icons.email,
                       color: Colors.teal,
@@ -88,6 +90,7 @@ class MyApp extends StatelessWidget {
                   color: Colors.white,
                   margin: EdgeInsets.symmetric(vertical: 5.0, horizontal: 20.0),
                   child: ListTile(
+                    dense: true,
                     leading: Icon(
                       MyFlutterApp.github,
                       color: Colors.teal,
